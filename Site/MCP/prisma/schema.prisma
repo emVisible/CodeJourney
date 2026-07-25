@@ -1,0 +1,55 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model MCP_Repo {
+  id     Int      @id @default(autoincrement())
+  repo   String   @unique
+  desc   String
+  star   Int
+  tags   String
+  lang   String
+  update DateTime @db.Date
+  up     Int      @default(0)
+  label  String   @default("")
+
+  readme  MCP_Readme?
+  details MCP_RepoDetail?
+  images  MCP_ReadmeImage[]
+}
+
+model MCP_RepoDetail {
+  id      String   @id
+  repoId  Int      @unique
+  view    Int
+  users   Int
+  version String
+  update  DateTime @db.Date
+
+  repo MCP_Repo @relation(fields: [repoId], references: [id], onDelete: Cascade)
+}
+
+model MCP_Readme {
+  id      String            @id @default(uuid())
+  repoId  Int               @unique
+  content String            @db.Text
+  images  MCP_ReadmeImage[]
+
+  repo MCP_Repo @relation(fields: [repoId], references: [id], onDelete: Cascade)
+}
+
+model MCP_ReadmeImage {
+  id       String  @id @default(uuid())
+  repoId   Int
+  url      String
+  readmeId String?
+
+  repo   MCP_Repo    @relation(fields: [repoId], references: [id], onDelete: Cascade)
+  Readme MCP_Readme? @relation(fields: [readmeId], references: [id])
+}

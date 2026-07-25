@@ -1,0 +1,30 @@
+<resources>
+    <string name="welcome">welcome</string>
+    <string name="switch_language_to_english">switch to english</string>
+    <string name="switch_language_to_chinese">switch to chinese</string>
+
+    <string name="app_name">Prac15</string>
+    <string name="account">Account</string>
+    <string name="password">Password</string>
+    <string name="submit">Login</string>
+
+    <string name="account_registry">Account</string>
+    <string name="password_registry">Password</string>
+    <string name="submit_registry">Register</string>
+    <string name="default_username">Steve</string>
+    <string name="default_signature">To get rich, chop trees first</string>
+
+    <string name="to_registry">Don\'t have an account? Register now</string>
+    <string name="to_login">Already have an account? Login</string>
+    <string name="logout">Logout</string>
+    <string name="remember">Remember password</string>
+
+    <string name="hint_login_account">Please enter your account</string>
+    <string name="hint_login_password">Please enter your password</string>
+    <string name="hint_registry_account">6 to 12 letters or numbers</string>
+    <string name="hint_registry_password">8 to 20 letters or numbers</string>
+
+    <string name="nav_to_home">Home Page</string>
+    <string name="nav_to_article">Article</string>
+    <string name="nav_logout">Logout</string>
+</resources>

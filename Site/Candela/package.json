@@ -1,0 +1,37 @@
+{
+  "name": "candela",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amap/amap-vue": "^2.0.13",
+    "@element-plus/icons-vue": "^2.1.0",
+    "@icon-park/vue-next": "^1.4.2",
+    "@vue/reactivity": "^3.2.47",
+    "core-js": "^3.29.1",
+    "element-plus": "^2.3.0",
+    "moment": "^2.29.4",
+    "vue": "^3.2.45",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@types/node": "^18.15.3",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "path": "^0.12.7",
+    "postcss": "^8.4.21",
+    "sass": "^1.59.2",
+    "scss": "^0.2.4",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vue-amap": "^0.5.10",
+    "vue-tsc": "^1.0.24"
+  }
+}

@@ -1,0 +1,74 @@
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 50422981 (48M), 2274501 (2.2M) remaining [application/octet-stream]
+Saving to: ‘/home/young/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c-1702647767.tar.gz’
+
+
+
+2023-12-15 21:46:28 (5.57 KB/s) - Read error at byte 48422912/50422981 (Connection reset by peer). Retrying.
+
+--2023-12-15 21:46:34--  (try: 7)  https://vscode.download.prss.microsoft.com/dbazure/download/stable/af28b32d7e553898b2a91af498b1fb666fdebe0c/vscode-server-linux-x64.tar.gz
+Connecting to vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)|183.249.97.245|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 50422981 (48M), 2000069 (1.9M) remaining [application/octet-stream]
+Saving to: ‘/home/young/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c-1702647767.tar.gz’
+
+
+
+2023-12-15 21:48:02 (2.81 KB/s) - Read error at byte 48671789/50422981 (Connection reset by peer). Retrying.
+
+--2023-12-15 21:48:09--  (try: 8)  https://vscode.download.prss.microsoft.com/dbazure/download/stable/af28b32d7e553898b2a91af498b1fb666fdebe0c/vscode-server-linux-x64.tar.gz
+Connecting to vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)|183.249.97.245|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 50422981 (48M), 1751192 (1.7M) remaining [application/octet-stream]
+Saving to: ‘/home/young/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c-1702647767.tar.gz’
+
+            /home/young/.vsco  96%[++++++++++++++++++++++++++++++++++++++++++++++++  ]  46.42M  --.-KB/s                          /home/young/.vscod  96%[++++++++++++++++++++++++++++++++++++++++++++++++  ]  46.42M  --.-KB/s                         /home/young/.vscode  96%[++++++++++++++++++++++++++++++++++++++++++++++++  ]  46.42M  --.-KB/s               /home/young/.vscode-server/bi  96%[++++++++++++++++++++++++++++++++++++++++++++++++  ]  46.42M  --.-KB/s    in 4.8s    
+
+2023-12-15 21:48:14 (0.00 B/s) - Read error at byte 48671789/50422981 (Connection reset by peer). Retrying.
+
+--2023-12-15 21:48:22--  (try: 9)  https://vscode.download.prss.microsoft.com/dbazure/download/stable/af28b32d7e553898b2a91af498b1fb666fdebe0c/vscode-server-linux-x64.tar.gz
+Connecting to vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)|183.249.97.245|:443... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 50422981 (48M), 1751192 (1.7M) remaining [application/octet-stream]
+Saving to: ‘/home/young/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c-1702647767.tar.gz’
+
+        [ skipping 47500K ]
+ 47500K ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,,, ,......... .......... 96% 9.97K 7m27s
+ 47550K .......... .......... .......... .......... .......... 96% 6.14K 5m13s
+ 47600K .......... .......... .......... .......... .......... 96% 2.33K 7m43s
+ 47650K .......... .......... .......... .......... .......... 96% 2.13K 8m50s
+ 47700K .......... .......... .......... .......... .......... 96% 5.09K 7m42s
+ 47750K .......... .......... .......... .......... .......... 97% 2.59K 7m47s
+ 47800K .......... .......... .......... .......... .......... 97% 4.95K 7m5s
+ 47850K .......... .......... .......... .......... .......... 97% 2.88K 6m57s
+ 47900K .......... .......... .......... .......... .......... 97% 7.11K 6m15s
+ 47950K .......... .......... .......... .......... .......... 97% 5.39K 5m47s
+ 48000K .......... .......... .......... .......... .......... 97% 7.15K 5m17s
+ 48050K .......... .......... .......... .......... .......... 97% 2.55K 5m16s
+ 48100K .......... .......... .......... .......... .......... 97% 6.69K 4m51s
+ 48150K .......... .......... .......... .......... .......... 97% 8.15M 4m17s
+ 48200K .......... .......... .......... .......... .......... 97% 9.22M 3m48s
+ 48250K .......... .......... .......... .......... .......... 98% 6.84M 3m22s
+ 48300K .......... .......... .......... .......... .......... 98% 7.23M 3m0s
+ 48350K .......... .......... .......... .......... .......... 98% 6.39M 2m40s
+ 48400K .......... .......... .......... .......... .......... 98% 5.87M 2m22s
+ 48450K .......... .......... .......... .......... .......... 98% 10.9M 2m6s
+ 48500K .......... .......... .......... .......... .......... 98% 6.75M 1m52s
+ 48550K .......... .......... .......... .......... .......... 98% 7.75M 99s
+ 48600K .......... .......... .......... .......... .......... 98% 7.17M 87s
+ 48650K .......... .......... .......... .......... .......... 98% 6.23M 76s
+ 48700K .......... .......... .......... .......... .......... 99% 7.53M 67s
+ 48750K .......... .......... .......... .......... .......... 99% 9.47M 57s
+ 48800K .......... .......... .......... .......... .......... 99% 6.06M 49s
+ 48850K .......... .......... .......... .......... .......... 99% 8.26M 41s
+ 48900K .......... .......... .......... .......... .......... 99% 7.16M 34s
+ 48950K .......... .......... .......... .......... .......... 99% 8.94M 27s
+ 49000K .......... .......... .......... .......... .......... 99% 6.21M 21s
+ 49050K .......... .......... .......... .......... .......... 99% 5.96M 15s
+ 49100K .......... .......... .......... .......... .......... 99% 8.00M 9s
+ 49150K .......... .......... .......... .......... .......... 99% 10.5M 4s
+ 49200K .......... .......... .......... .......... .         100% 5.79M=2m45s
+
+utime(/home/young/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c-1702647767.tar.gz): No such file or directory
+2023-12-15 21:51:07 (10.3 KB/s) - ‘/home/young/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c-1702647767.tar.gz’ saved [50422981/50422981]
+

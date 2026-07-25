@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f8f8f8;
+  --foreground: #171717;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.markdown-body {
+  width: 100%;
+  border-radius: 10px;
+  font-family: "PingFang SC";
+  --fgColor-default: black !important;
+  --bgColor-default: #fff !important;
+  --accentColor-fg: #0070f3 !important;
+  --preColor-bg: #fafafa !important;
+  --bgColor-muted: #fafafa !important;
+}
+.markdown-body code {
+  background-color: #fafafa;
+  color: "#666666";
+}
+.markdown-body p {
+  padding: 20px 32px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+.markdown-body ul {
+  padding: 40px 32px;
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}

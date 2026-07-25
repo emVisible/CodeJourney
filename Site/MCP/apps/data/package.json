@@ -1,0 +1,32 @@
+{
+  "name": "github-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "crawl": "ts-node src/crawl.ts",
+    "merge": "ts-node src/merge.ts",
+    "reconcile": "ts-node src/reconcile.ts",
+    "padding": "ts-node src/padding.ts",
+    "filter": "ts-node src/filter.ts"
+  },
+  "keywords": [
+    "playwright",
+    "crawler"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crawlee": "^3.13.0",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.51.1",
+    "tiktoken": "^1.0.20"
+  },
+  "devDependencies": {
+    "@types/ndjson": "^2.0.4",
+    "@types/node": "^22.13.11",
+    "date-fns": "^4.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}

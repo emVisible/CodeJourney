@@ -1,0 +1,24 @@
+{
+  "name": "prac4",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": " vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/topojson-client": "^3.1.2",
+    "topojson-client": "^3.1.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "echarts": "^5.4.3",
+    "sass": "^1.67.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}

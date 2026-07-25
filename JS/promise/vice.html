@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <article>Article</article>
+    <script>
+      const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve("PROMISE_RESOLVE");
+          console.log('OK')
+        });
+        // resolve("PROMISE_RESOLVE")
+        // reject("REJECT");
+      }).then(
+        (value) => {
+          console.log("value", value);
+        },
+        (reason) => {
+          console.log("reason", reason);
+          console.log("error", error);
+        }
+      );
+      console.log("GLOBAL")
+    </script>
+  </body>
+</html>

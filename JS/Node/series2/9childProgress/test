@@ -1,0 +1,4 @@
+#!/run/user/1000/fnm_multishells/824_1704790187829/bin/node
+
+console.log("Hi there.")
+console.log(process.env)

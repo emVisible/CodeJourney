@@ -1,0 +1,15 @@
+{
+  "name": "17importPackages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "em_npm_package_0": "link:../17package"
+  }
+}

@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  em_npm_package_0:
+    specifier: ^1.0.2
+    version: 1.0.2
+
+packages:
+
+  /em_npm_package_0@1.0.2:
+    resolution: {integrity: sha512-PMJPnXMM20oHuxIRFz2GH/kE5+b1A2IiAzxKBMlTzucC+Np9KoBwGjKna7hju/z9pCnqL7TTYjvbo4AN1dPmbQ==}
+    dev: false

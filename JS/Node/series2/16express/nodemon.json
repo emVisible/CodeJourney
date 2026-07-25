@@ -1,0 +1,13 @@
+{
+  "ignore": [
+    "node_modules",
+    "dist"
+  ],
+  "colrous": true,
+  "verbose": true,
+  "restartable": "rs",
+  "watch": [
+    "*.*"
+  ],
+  "text": "html, js, css"
+}
