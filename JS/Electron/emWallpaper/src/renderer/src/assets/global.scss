@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Heartstone — Twilight Lavender
+ * 灵感：普罗旺斯薰衣草田 / 海边暮色 / 森林苔径
+ * 主色：柔紫 (lavender bloom)  辅色：鼠尾草绿 (sage green)
+ * 无刺眼的蓝 / 黄 — 只有自然中真实存在的色彩
+ */
+
+:root {
+  --color-bg: #f6f4fa;
+  --color-surface: #ffffff;
+  --color-border: #e8e4f0;
+  --color-muted: #a39ab5;
+  --color-fg: #2d2438;
+  --color-primary: #7c6baa;
+  --color-primary-hover: #6a5a96;
+  --color-primary-light: #f0edf7;
+  --color-accent: #7a9e7e;
+  --color-accent-light: #edf5ef;
+  --color-success: #6b9e7a;
+  --color-danger: #c4776b;
+  --color-warning: #c49a6c;
+  --radius: 8px;
+  --radius-sm: 6px;
+}
+
+.dark {
+  --color-bg: #1a1624;
+  --color-surface: #241f30;
+  --color-border: #38324a;
+  --color-muted: #8c83a0;
+  --color-fg: #e8e3f0;
+  --color-primary: #a694c9;
+  --color-primary-hover: #b8a8d6;
+  --color-primary-light: #25223a;
+  --color-accent: #8cb09a;
+  --color-accent-light: #1f2e25;
+  --color-success: #7daa8a;
+  --color-danger: #d4948a;
+  --color-warning: #d4b08a;
+}
+
+.drag { -webkit-app-region: drag; }
+.nodrag { -webkit-app-region: no-drag; }
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-muted); }
+
+.cv-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+
+.cv-input {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.cv-input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+  outline: none;
+}
+
+.masonry {
+  column-count: 5;
+  column-gap: 10px;
+}
+
+.masonry > * {
+  break-inside: avoid;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1400px) { .masonry { column-count: 4; } }
+@media (max-width: 1100px) { .masonry { column-count: 3; } }
+@media (max-width: 800px)  { .masonry { column-count: 2; } }
+@media (max-width: 500px)  { .masonry { column-count: 1; } }
+
+.dark .ant-select-selector,
+.dark .ant-select-dropdown,
+.dark .ant-segmented,
+.dark .ant-modal-content,
+.dark .ant-modal-header,
+.dark .ant-popover-inner,
+.dark .ant-popconfirm .ant-popover-inner,
+.dark .ant-input,
+.dark .ant-switch {
+  background: var(--color-surface) !important;
+  border: 1px solid var(--color-border) !important;
+}
+
+.dark .ant-switch.ant-switch-checked {
+  background: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+}
+
+.dark .ant-select-selection-item,
+.dark .ant-select-item,
+.dark .ant-segmented-item-label,
+.dark .ant-modal-title {
+  color: var(--color-fg) !important;
+}
+
+.dark .ant-segmented-item-selected {
+  background: var(--color-primary) !important;
+}
+
+.dark .ant-segmented-item-selected .ant-segmented-item-label {
+  color: #fff !important;
+}
+
+.dark .ant-select-dropdown {
+  background: var(--color-surface) !important;
+}
+
+.dark .ant-select-item-option-selected {
+  background: var(--color-primary-light) !important;
+}
+
+.dark .ant-modal-close {
+  color: var(--color-muted) !important;
+}
+
+.dark .ant-notification-notice {
+  background: var(--color-surface) !important;
+  border: 1px solid var(--color-border) !important;
+}
+
+.dark .ant-notification-notice-message {
+  color: var(--color-fg) !important;
+}
+
+.dark .ant-notification-notice-description {
+  color: var(--color-muted) !important;
+}
+
+/* Focus visible ring for keyboard accessibility */
+*:focus-visible {
+  outline: 2px solid var(--color-primary) !important;
+  outline-offset: 1px;
+  border-radius: 3px;
+}
+
+/* Smooth scroll for all scrollable regions */
+* {
+  scroll-behavior: smooth;
+}
+
+/* Subtle selection color */
+::selection {
+  background: var(--color-primary-light);
+  color: var(--color-fg);
+}

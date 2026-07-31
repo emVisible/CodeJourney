@@ -1,0 +1,140 @@
+{
+  "app": {
+    "name": "Heartstone",
+    "tagline": "Creator's Asset Vault",
+    "quit": "Quit"
+  },
+  "window": {
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "close": "Close"
+  },
+  "nav": {
+    "download": "Download",
+    "assets": "Assets",
+    "settings": "Settings"
+  },
+  "download": {
+    "title": "Batch Download",
+    "placeholder": "Paste Bilibili/YouTube link or download URL",
+    "start": "Start Download",
+    "noSavePath": "Please set a save path in Settings first",
+    "empty": "Paste URLs to start downloading",
+    "emptyHint": "Multi-threaded · Real-time speed · Batch tasks",
+    "inProgress": "{{count}} in progress",
+    "idle": "Idle",
+    "clearDone": "Clear completed",
+    "tasks": "{{count}} tasks",
+    "saveTo": "Save to: {{path}}",
+    "noPath": "No path set",
+    "scan": "Scan",
+    "extract": "Parse",
+    "directLink": "Direct download",
+    "scanned": "Scanned {{count}} files",
+    "selectAll": "Select All / Deselect",
+    "selected": "Download selected ({{count}})",
+    "partial": "{{success}}/{{total}} succeeded",
+    "batchFailed": "Batch download failed",
+    "scanFailed": "Scan failed",
+    "extractFailed": "Extraction failed",
+    "fetchFailed": "Fetch failed",
+    "bilibili": "Bilibili",
+    "downloadBtn": "Download",
+    "youtube": "YouTube",
+    "downloading": "Downloading..."
+  },
+  "task": {
+    "pending": "Queued",
+    "starting": "Connecting",
+    "downloading": "Downloading",
+    "assembling": "Merging",
+    "complete": "Complete",
+    "error": "Failed",
+    "cancelled": "Cancelled",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "saved": "Saved: {{path}}",
+    "downloadComplete": "Download complete",
+    "downloadFailed": "Download failed"
+  },
+  "assets": {
+    "title": "Asset Browser",
+    "files": "{{count}} files",
+    "refresh": "Refresh",
+    "open": "Open",
+    "delete": "Delete",
+    "deleteConfirm": "Delete \"{{name}}\"?",
+    "noPath": "Please set a save path in Settings first",
+    "emptyTitle": "No assets in this category",
+    "emptyHint": "Download assets to see them here",
+    "categories": {
+      "all": "All",
+      "video": "Video",
+      "document": "Document",
+      "other": "Other"
+    },
+    "sortName": "Name",
+    "sortSize": "Size",
+    "sortDate": "Date",
+    "playing": "Playing...",
+    "stop": "Stop",
+    "play": "Play",
+    "preview": "Preview",
+    "videoFile": "Video file",
+    "showInFinder": "Show in Finder",
+    "loadMore": "Load More",
+    "meta": {
+      "source": "Source",
+      "originalUrl": "Original URL",
+      "downloadTime": "Download time",
+      "hash": "Hash"
+    },
+    "info": {
+      "size": "Size",
+      "format": "Format",
+      "codec": "Codec",
+      "resolution": "Resolution",
+      "duration": "Duration"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "savePath": "Download Save Path",
+    "selectFolder": "Select Folder",
+    "categories": "Categories",
+    "categoriesHint": "Downloads will be organized into category sub-folders",
+    "newCategory": "New category name",
+    "create": "Create",
+    "appearance": "Appearance",
+    "darkMode": "Dark Mode",
+    "language": "Language",
+    "rename": "Rename Category",
+    "deleteCategory": "Delete this category?",
+    "deleteCategoryHint": "Only removes the record, not the files",
+    "confirmDelete": "Delete",
+    "cancel": "Cancel",
+    "ok": "OK",
+    "firstRunTitle": "Welcome to Heartstone",
+    "firstRunDesc": "Set a download directory to get started. Downloaded assets will be saved here.",
+    "skip": "Skip",
+    "default": "Default",
+    "version": "Heartstone v0.2.0 · Creator's Asset Vault",
+    "clipboardDetect": "Clipboard Detection",
+    "clipboardDetectHint": "Auto-show download prompt when copying a video link",
+    "clipboardDetectEnable": "Enable auto-detection"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "reload": "Reload"
+  },
+  "statusBar": {
+    "idle": "Waiting for tasks...",
+    "downloading": " downloading",
+    "completed": " completed",
+    "tasks": " tasks",
+    "complete": "Done",
+    "error": "Failed",
+    "failed": " failed"
+  }
+}

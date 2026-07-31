@@ -1,0 +1,140 @@
+{
+  "app": {
+    "name": "Heartstone",
+    "tagline": "创作者资产仓库",
+    "quit": "退出应用"
+  },
+  "window": {
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "close": "关闭"
+  },
+  "nav": {
+    "download": "下载",
+    "assets": "素材",
+    "settings": "设置"
+  },
+  "download": {
+    "title": "批量下载",
+    "placeholder": "粘贴 B站/YouTube/网页链接 或下载直链",
+    "start": "开始下载",
+    "noSavePath": "请先在设置中选择保存路径",
+    "empty": "粘贴链接开始下载素材",
+    "emptyHint": "多线程下载 · 实时速度 · 批量任务",
+    "inProgress": "{{count}} 个进行中",
+    "idle": "空闲",
+    "clearDone": "清除已完成",
+    "tasks": "{{count}} 个任务",
+    "saveTo": "保存到: {{path}}",
+    "noPath": "未设置路径",
+    "scan": "解析",
+    "extract": "解析",
+    "directLink": "直链下载",
+    "scanned": "扫描到 {{count}} 个文件",
+    "selectAll": "全选/取消",
+    "selected": "下载所选 ({{count}})",
+    "partial": "{{success}}/{{total}} 个成功",
+    "batchFailed": "批量下载启动失败",
+    "scanFailed": "扫描失败",
+    "extractFailed": "提取失败",
+    "fetchFailed": "获取失败",
+    "bilibili": "B站",
+    "downloadBtn": "下载",
+    "youtube": "YouTube",
+    "downloading": "下载中..."
+  },
+  "task": {
+    "pending": "排队中",
+    "starting": "连接中",
+    "downloading": "下载中",
+    "assembling": "合并中",
+    "complete": "已完成",
+    "error": "失败",
+    "cancelled": "已取消",
+    "retry": "重试",
+    "cancel": "取消",
+    "delete": "删除记录",
+    "saved": "已保存: {{path}}",
+    "downloadComplete": "下载完成",
+    "downloadFailed": "下载失败"
+  },
+  "assets": {
+    "title": "素材浏览",
+    "files": "{{count}} 个文件",
+    "refresh": "刷新",
+    "open": "打开",
+    "delete": "删除",
+    "deleteConfirm": "删除 \"{{name}}\"？",
+    "noPath": "请先在设置中选择保存路径",
+    "emptyTitle": "该分类下暂无素材",
+    "emptyHint": "下载素材后在此查看",
+    "categories": {
+      "all": "全部",
+      "video": "视频",
+      "document": "文档",
+      "other": "其他"
+    },
+    "sortName": "名称",
+    "sortSize": "大小",
+    "sortDate": "日期",
+    "playing": "正在播放...",
+    "stop": "停止",
+    "play": "播放",
+    "preview": "预览",
+    "videoFile": "视频文件",
+    "showInFinder": "在 Finder 中显示",
+    "loadMore": "加载更多",
+    "meta": {
+      "source": "来源",
+      "originalUrl": "原始URL",
+      "downloadTime": "下载时间",
+      "hash": "校验"
+    },
+    "info": {
+      "size": "大小",
+      "format": "格式",
+      "codec": "编码",
+      "resolution": "分辨率",
+      "duration": "时长"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "savePath": "下载保存路径",
+    "selectFolder": "选择文件夹",
+    "categories": "素材分类",
+    "categoriesHint": "下载的素材将按分类存入对应子文件夹",
+    "newCategory": "新建分类名称",
+    "create": "新建",
+    "appearance": "外观",
+    "darkMode": "深色模式",
+    "language": "语言",
+    "rename": "重命名分类",
+    "deleteCategory": "删除此分类？",
+    "deleteCategoryHint": "仅删除记录，不删除文件",
+    "confirmDelete": "删除",
+    "cancel": "取消",
+    "ok": "确定",
+    "firstRunTitle": "欢迎使用 Heartstone",
+    "firstRunDesc": "请选择下载保存目录，下载的素材将存储在此处。",
+    "skip": "跳过",
+    "default": "默认",
+    "version": "Heartstone v0.2.0 · 创作者资产仓库",
+    "clipboardDetect": "剪贴板检测",
+    "clipboardDetectHint": "复制视频链接时自动弹出下载提示",
+    "clipboardDetectEnable": "启用自动检测"
+  },
+  "error": {
+    "title": "页面出错了",
+    "reload": "重新加载"
+  },
+  "statusBar": {
+    "idle": "等待下载任务...",
+    "downloading": "个下载中",
+    "completed": "个已完成",
+    "tasks": "个任务",
+    "complete": "完成",
+    "error": "失败",
+    "failed": "失败"
+  }
+}
