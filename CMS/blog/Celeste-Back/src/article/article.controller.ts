@@ -1,0 +1,39 @@
+import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards, Query } from '@nestjs/common';
+import { ArticleService } from './article.service';
+import { CreateArticleDto } from './dto/create-article.dto';
+import { UpdateArticleDto } from './dto/update-article.dto';
+import { AuthGuard } from '@nestjs/passport';
+
+@Controller('article')
+export class ArticleController {
+  constructor(private readonly articleService: ArticleService) {}
+
+  /**
+   * 使用jwt token机制进行守卫验证
+  */
+  @Post()
+  @UseGuards(AuthGuard('jwt'))
+  create(@Body() createArticleDto: CreateArticleDto) {
+    return this.articleService.create(createArticleDto);
+  }
+
+  @Get()
+  findAll(@Query('key')key, @Query('page') page=1, @Query('row') row=10) {
+    return this.articleService.findAll(key, +page, +row);
+  }
+
+  @Get(':id')
+  findOne(@Param('id') id: string) {
+    return this.articleService.findOne(+id);
+  }
+
+  @Patch(':id')
+  update(@Param('id') id: string, @Body() updateArticleDto: UpdateArticleDto) {
+    return this.articleService.update(+id, updateArticleDto)
+  }
+
+  @Delete(':id')
+  remove(@Param('id') id: string) {
+    return this.articleService.remove(+id);
+  }
+}
